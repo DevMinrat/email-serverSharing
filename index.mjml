@@ -1,0 +1,404 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .header-link td { padding: 0 0px 30px !important; } .header-link table {
+      margin-right: auto; !important; } .header-link--right table { margin-left:
+      auto !important;
+      margin-right:
+      inherit !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FAFAFA" padding="0 70px">
+    <mj-wrapper
+      background-url="assets/images/img-bg.png"
+      background-repeat="no-repeat"
+      padding-top="25px"
+    >
+      <mj-section padding="0 10px">
+        <mj-group width="500px">
+          <mj-column css-class="header-link">
+            <mj-button
+              padding="0"
+              background-color="transparent"
+              color="#1890FF"
+              href="#"
+            >
+              <div>
+                <image
+                  padding="0"
+                  align="left"
+                  width="24px"
+                  src="assets/images/storage.png"
+                  alt=""
+                />
+                <p
+                  style="
+                    width: 140px;
+                    padding-top: 2px;
+                    margin: 0;
+                    font-family: Ubuntu, sans-serif;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #1890ff;
+                  "
+                >
+                  ServerSharing
+                </p>
+              </div>
+            </mj-button>
+          </mj-column>
+          <mj-column css-class="header-link header-link--right" padding="0">
+            <mj-button
+              padding="0"
+              background-color="transparent"
+              color="#1890FF"
+              href="#"
+            >
+              <div>
+                <image
+                  style="padding-top: 7px; margin: 0"
+                  align="right"
+                  width="6px"
+                  src="assets/images/arrow-sm.png"
+                  alt=""
+                />
+                <p
+                  style="
+                    width: 110px;
+                    padding-top: 2px;
+                    margin: 0;
+                    font-family: Inter, sans-serif;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #1890ff;
+                  "
+                >
+                  Visit website
+                </p>
+              </div>
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0 10px">
+        <mj-column width="490px">
+          <mj-text
+            align="left"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="48px"
+            line-height="58px"
+            color="#0C1014"
+            padding="0 0 25px"
+          >
+            Powerful and safe server hosting
+          </mj-text>
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-size="18px"
+            line-height="27px"
+            color="#515759"
+            padding="0 0 35px"
+          >
+            Our revolutionary Cloud solution is powerful, simple, and
+            surprisingly affordable. Harnessing the web has never been easier
+          </mj-text>
+          <mj-button
+            width="260px"
+            height="50px"
+            background-color="#1890FF"
+            border-radius="10px"
+            font-size="18px"
+            padding="0"
+            align="left"
+            href="#"
+            >Learn more</mj-button
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-spacer height="75px" />
+    <mj-section>
+      <mj-column width="500px" border-top="1px solid #DFE1E4">
+        <mj-spacer height="1px"
+      /></mj-column>
+    </mj-section>
+    <mj-wrapper padding="60px 30px">
+      <mj-section padding="0 10px 20px">
+        <mj-column padding="0" width="90px">
+          <mj-image
+            padding="0"
+            width="90px"
+            src="assets/images/firewall.png"
+            alt=""
+          />
+        </mj-column>
+        <mj-group>
+          <mj-column width="300px" padding="10px 0px 0 20px">
+            <mj-text padding="0">
+              <h3
+                style="
+                  align: left;
+                  font-family: Inter, sans-serif;
+                  font-weight: bold;
+                  font-size: 18px;
+                  line-height: 22px;
+                  color: #515759;
+                  padding: 0;
+                  margin: 0;
+                "
+              >
+                Firewall
+              </h3>
+              <p
+                style="
+                  width: 100%;
+                  font-family: Inter, sans-serif;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #515759;
+                  padding: 0 40px 0 0;
+                "
+              >
+                Our system monitors and controls incoming and outgoing network
+                traffic
+              </p>
+            </mj-text>
+          </mj-column>
+          <mj-column width="40px" padding="25px 0">
+            <mj-image
+              align="right"
+              padding="0"
+              width="40px"
+              src="assets/images/arrow.png"
+              alt=""
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0 10px 20px">
+        <mj-column padding="0" width="90px">
+          <mj-image
+            padding="0"
+            width="90px"
+            src="assets/images/analysis.png"
+            alt=""
+          />
+        </mj-column>
+
+        <mj-column width="300px" padding="10px 0px 0 20px">
+          <mj-text
+            align="left"
+            padding="0 0 10px"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="18px"
+            line-height="22px"
+            color="#0C1014"
+          >
+            Data Analysis</mj-text
+          >
+          <mj-text
+            align="left"
+            font-family="Inter, sans-serif"
+            font-size="14px"
+            line-height="20px"
+            color="#515759"
+            padding="0 40px 0 0"
+          >
+            Data mining, text analytics, business intelligence and data
+            visualization
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40px" padding="25px 0">
+          <mj-image
+            align="right"
+            padding="0"
+            width="40px"
+            src="assets/images/arrow.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 10px 20px">
+        <mj-column padding="0" width="90px">
+          <mj-image
+            padding="0"
+            width="90px"
+            src="assets/images/encryption.png"
+            alt=""
+          />
+        </mj-column>
+
+        <mj-column width="300px" padding="10px 0px 0 20px">
+          <mj-text
+            align="left"
+            padding="0 0 10px"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="18px"
+            line-height="22px"
+            color="#0C1014"
+          >
+            Encryption</mj-text
+          >
+          <mj-text
+            align="left"
+            font-family="Inter, sans-serif"
+            font-size="14px"
+            line-height="20px"
+            color="#515759"
+            padding="0 40px 0 0"
+          >
+            Information is encoded and can only be accessed with the encryption
+            key
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40px" padding="25px 0">
+          <mj-image
+            align="right"
+            padding="0"
+            width="40px"
+            src="assets/images/arrow.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 10px 20px">
+        <mj-column padding="0" width="90px">
+          <mj-image
+            padding="0"
+            width="90px"
+            src="assets/images/protection.png"
+            alt=""
+          />
+        </mj-column>
+
+        <mj-column width="300px" padding="10px 0px 0 20px">
+          <mj-text
+            align="left"
+            padding="0 0 10px"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="18px"
+            line-height="22px"
+            color="#0C1014"
+          >
+            Protection</mj-text
+          >
+          <mj-text
+            align="left"
+            font-family="Inter, sans-serif"
+            font-size="14px"
+            line-height="20px"
+            color="#515759"
+            padding="0 40px 0 0"
+          >
+            Safeguarding important information from corruption, compromise or
+            loss
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="40px" padding="25px 0">
+          <mj-image
+            align="right"
+            padding="0"
+            width="40px"
+            src="assets/images/arrow.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-button
+            width="440px"
+            height="50px"
+            background-color="#1890FF"
+            border-radius="10px"
+            font-size="18px"
+            padding="0"
+            href="#"
+            >Explore more about ServerSharing</mj-button
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section>
+      <mj-column width="500px" border-top="1px solid #DFE1E4">
+        <mj-spacer height="1px"
+      /></mj-column>
+    </mj-section>
+    <mj-spacer height="45px" />
+
+    <mj-section padding="0">
+      <mj-column width="425px">
+        <mj-text
+          align="center"
+          font-family="Inter, sans-serif"
+          font-size="14px"
+          line-height="24px"
+          color="#B1BCC0"
+        >
+          If you prefer not to receive emails like this, you may
+          <a style="color: inherit" href="#">unsubscribe</a> (c) 2019
+          ServerSharing. All rights reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="50px">
+        <mj-button
+          width="23px"
+          padding="0"
+          background-color="transparent"
+          href="#"
+        >
+          <image
+            padding="0"
+            width="23px"
+            src="assets/images/facebook.png"
+            alt=""
+          />
+        </mj-button>
+      </mj-column>
+
+      <mj-column width="50px">
+        <mj-button
+          width="23px"
+          padding="0"
+          background-color="transparent"
+          href="#"
+        >
+          <image
+            padding="0"
+            width="23px"
+            src="assets/images/twitter.png"
+            alt=""
+          />
+        </mj-button>
+      </mj-column>
+
+      <mj-column width="50px">
+        <mj-button
+          width="23px"
+          padding="0"
+          background-color="transparent"
+          href="#"
+        >
+          <image
+            padding="0"
+            width="23px"
+            src="assets/images/instagram.png"
+            alt=""
+          />
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
