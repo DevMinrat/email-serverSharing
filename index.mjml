@@ -1,11 +1,12 @@
 <mjml>
   <mj-head>
-    <mj-style>
+    <mj-title> ServerSharing </mj-title>
+    <mj-style inline="inline">
       .header-link td { padding: 0 0px 30px !important; } .header-link table {
       margin-right: auto; !important; } .header-link--right table { margin-left:
-      auto !important;
-      margin-right:
-      inherit !important; }
+      auto !important; margin-right: inherit !important; } .btn-lg td { padding:
+      10px 15px !important; width: 400px; height: 50px;} .btn-lg td a { padding:
+      0 !important; background: transparent !important }
     </mj-style>
   </mj-head>
   <mj-body background-color="#FAFAFA" padding="0 70px">
@@ -118,220 +119,182 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
+
     <mj-spacer height="75px" />
-    <mj-section>
-      <mj-column width="500px" border-top="1px solid #DFE1E4">
-        <mj-spacer height="1px"
-      /></mj-column>
+
+    <mj-section padding="20px">
+      <mj-column
+        width="500px"
+        padding-bottom="50px"
+        border-top="1px solid #DFE1E4"
+      >
+      </mj-column>
     </mj-section>
-    <mj-wrapper padding="60px 30px">
-      <mj-section padding="0 10px 20px">
-        <mj-column padding="0" width="90px">
-          <mj-image
-            padding="0"
-            width="90px"
-            src="assets/images/firewall.png"
-            alt=""
-          />
-        </mj-column>
-        <mj-group>
-          <mj-column width="300px" padding="10px 0px 0 20px">
-            <mj-text padding="0">
-              <h3
-                style="
-                  align: left;
-                  font-family: Inter, sans-serif;
-                  font-weight: bold;
-                  font-size: 18px;
-                  line-height: 22px;
-                  color: #515759;
-                  padding: 0;
-                  margin: 0;
-                "
-              >
-                Firewall
-              </h3>
-              <p
-                style="
-                  width: 100%;
-                  font-family: Inter, sans-serif;
-                  font-size: 14px;
-                  line-height: 20px;
-                  color: #515759;
-                  padding: 0 40px 0 0;
-                "
-              >
-                Our system monitors and controls incoming and outgoing network
-                traffic
-              </p>
-            </mj-text>
-          </mj-column>
-          <mj-column width="40px" padding="25px 0">
-            <mj-image
-              align="right"
-              padding="0"
-              width="40px"
-              src="assets/images/arrow.png"
-              alt=""
-            />
-          </mj-column>
-        </mj-group>
-      </mj-section>
 
-      <mj-section padding="0 10px 20px">
-        <mj-column padding="0" width="90px">
-          <mj-image
-            padding="0"
-            width="90px"
-            src="assets/images/analysis.png"
-            alt=""
-          />
-        </mj-column>
+    <mj-section padding="0 10px 20px">
+      <mj-column padding="0" width="90px">
+        <mj-image
+          padding="0"
+          width="90px"
+          src="assets/images/firewall.png"
+          alt=""
+        />
+      </mj-column>
+      <mj-column width="300px" padding="10px 0px 0 20px">
+        <mj-text padding="0">
+          <h3
+            style="
+              align: left;
+              font-family: Inter, sans-serif;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 22px;
+              color: #515759;
+              padding: 0;
+              margin: 0;
+            "
+          >
+            Firewall
+          </h3>
+          <p
+            style="
+              font-family: Inter, sans-serif;
+              font-size: 14px;
+              line-height: 20px;
+              color: #515759;
+              padding: 0;
+            "
+          >
+            Our system monitors and controls incoming and outgoing network
+            traffic
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-        <mj-column width="300px" padding="10px 0px 0 20px">
-          <mj-text
-            align="left"
-            padding="0 0 10px"
-            font-family="Inter, sans-serif"
-            font-weight="bold"
-            font-size="18px"
-            line-height="22px"
-            color="#0C1014"
-          >
-            Data Analysis</mj-text
-          >
-          <mj-text
-            align="left"
-            font-family="Inter, sans-serif"
-            font-size="14px"
-            line-height="20px"
-            color="#515759"
-            padding="0 40px 0 0"
-          >
-            Data mining, text analytics, business intelligence and data
-            visualization
-          </mj-text>
-        </mj-column>
+    <mj-section padding="0 10px 20px">
+      <mj-column padding="0" width="90px">
+        <mj-image
+          padding="0"
+          width="90px"
+          src="assets/images/analysis.png"
+          alt=""
+        />
+      </mj-column>
 
-        <mj-column width="40px" padding="25px 0">
-          <mj-image
-            align="right"
-            padding="0"
-            width="40px"
-            src="assets/images/arrow.png"
-            alt=""
-          />
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0 10px 20px">
-        <mj-column padding="0" width="90px">
-          <mj-image
-            padding="0"
-            width="90px"
-            src="assets/images/encryption.png"
-            alt=""
-          />
-        </mj-column>
+      <mj-column width="300px" padding="10px 0px 0 20px">
+        <mj-text
+          align="left"
+          padding="0 0 10px"
+          font-family="Inter, sans-serif"
+          font-weight="bold"
+          font-size="18px"
+          line-height="22px"
+          color="#0C1014"
+        >
+          Data Analysis</mj-text
+        >
+        <mj-text
+          align="left"
+          font-family="Inter, sans-serif"
+          font-size="14px"
+          line-height="20px"
+          color="#515759"
+          padding="0"
+        >
+          Data mining, text analytics, business intelligence and data
+          visualization
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 10px 20px">
+      <mj-column padding="0" width="90px">
+        <mj-image
+          padding="0"
+          width="90px"
+          src="assets/images/encryption.png"
+          alt=""
+        />
+      </mj-column>
 
-        <mj-column width="300px" padding="10px 0px 0 20px">
-          <mj-text
-            align="left"
-            padding="0 0 10px"
-            font-family="Inter, sans-serif"
-            font-weight="bold"
-            font-size="18px"
-            line-height="22px"
-            color="#0C1014"
-          >
-            Encryption</mj-text
-          >
-          <mj-text
-            align="left"
-            font-family="Inter, sans-serif"
-            font-size="14px"
-            line-height="20px"
-            color="#515759"
-            padding="0 40px 0 0"
-          >
-            Information is encoded and can only be accessed with the encryption
-            key
-          </mj-text>
-        </mj-column>
+      <mj-column width="300px" padding="10px 0px 0 20px">
+        <mj-text
+          align="left"
+          padding="0 0 10px"
+          font-family="Inter, sans-serif"
+          font-weight="bold"
+          font-size="18px"
+          line-height="22px"
+          color="#0C1014"
+        >
+          Encryption</mj-text
+        >
+        <mj-text
+          align="left"
+          font-family="Inter, sans-serif"
+          font-size="14px"
+          line-height="20px"
+          color="#515759"
+          padding="0"
+        >
+          Information is encoded and can only be accessed with the encryption
+          key
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 10px 20px">
+      <mj-column padding="0" width="90px">
+        <mj-image
+          padding="0"
+          width="90px"
+          src="assets/images/protection.png"
+          alt=""
+        />
+      </mj-column>
 
-        <mj-column width="40px" padding="25px 0">
-          <mj-image
-            align="right"
-            padding="0"
-            width="40px"
-            src="assets/images/arrow.png"
-            alt=""
-          />
-        </mj-column>
-      </mj-section>
-      <mj-section padding="0 10px 20px">
-        <mj-column padding="0" width="90px">
-          <mj-image
-            padding="0"
-            width="90px"
-            src="assets/images/protection.png"
-            alt=""
-          />
-        </mj-column>
-
-        <mj-column width="300px" padding="10px 0px 0 20px">
-          <mj-text
-            align="left"
-            padding="0 0 10px"
-            font-family="Inter, sans-serif"
-            font-weight="bold"
-            font-size="18px"
-            line-height="22px"
-            color="#0C1014"
-          >
-            Protection</mj-text
-          >
-          <mj-text
-            align="left"
-            font-family="Inter, sans-serif"
-            font-size="14px"
-            line-height="20px"
-            color="#515759"
-            padding="0 40px 0 0"
-          >
-            Safeguarding important information from corruption, compromise or
-            loss
-          </mj-text>
-        </mj-column>
-
-        <mj-column width="40px" padding="25px 0">
-          <mj-image
-            align="right"
-            padding="0"
-            width="40px"
-            src="assets/images/arrow.png"
-            alt=""
-          />
-        </mj-column>
-      </mj-section>
-      <mj-section>
-        <mj-column>
-          <mj-button
-            width="440px"
-            height="50px"
-            background-color="#1890FF"
-            border-radius="10px"
-            font-size="18px"
-            padding="0"
-            href="#"
-            >Explore more about ServerSharing</mj-button
-          >
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
+      <mj-column width="300px" padding="10px 0px 0 20px">
+        <mj-text
+          align="left"
+          padding="0 0 10px"
+          font-family="Inter, sans-serif"
+          font-weight="bold"
+          font-size="18px"
+          line-height="22px"
+          color="#0C1014"
+        >
+          Protection</mj-text
+        >
+        <mj-text
+          align="left"
+          font-family="Inter, sans-serif"
+          font-size="14px"
+          line-height="20px"
+          color="#515759"
+          padding="0"
+        >
+          Safeguarding important information from corruption, compromise or loss
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section>
-      <mj-column width="500px" border-top="1px solid #DFE1E4">
-        <mj-spacer height="1px"
-      /></mj-column>
+      <mj-column>
+        <mj-button
+          css-class="btn-lg"
+          background-color="#1890FF"
+          border-radius="10px"
+          font-size="18px"
+          href="#"
+          >Explore more about ServerSharing</mj-button
+        >
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px">
+      <mj-column
+        width="500px"
+        padding-top="60px"
+        border-bottom="1px solid #DFE1E4"
+      >
+      </mj-column>
     </mj-section>
     <mj-spacer height="45px" />
 
