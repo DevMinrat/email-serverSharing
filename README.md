@@ -11,9 +11,9 @@ ____
 #### Демонстрация письма 
 ____    
 
-![image](https://github.com/DevMinrat/belaz/blob/master/Z4pduV5Y8Q.gif)
+![image](https://github.com/DevMinrat/email-serverSharing/blob/master/mails_ServerSharing.png)
 
 #### Ссылки    
 ____   
 
-Ссылка на проект
+Ссылка на письмо
